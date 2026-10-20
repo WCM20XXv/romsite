@@ -1,0 +1,37 @@
+# --- Secrets: never commit passwords or keys ---
+.env
+.env.*
+!.env.example
+config.local.*
+*.pem
+*.key
+
+# --- Database files and big dumps (share the .sql scripts, not the data) ---
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+dumps/
+backups/
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+tmp/
+
+# --- Editor settings (each person's own setup) ---
+.vscode/
+.idea/
+*.swp
+
+# --- Operating system junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- If you add a website later (Node / Python) ---
+node_modules/
+__pycache__/
+venv/
+.venv/
