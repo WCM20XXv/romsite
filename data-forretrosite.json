@@ -1,0 +1,111 @@
+{
+  "consoles": [
+    {
+      "name": "GameCube",
+      "manufacturer": "Nintendo",
+      "year": 2001,
+      "emulator": "Dolphin"
+    },
+    {
+      "name": "Wii",
+      "manufacturer": "Nintendo",
+      "year": 2006,
+      "emulator": "Dolphin"
+    },
+    {
+      "name": "Wii U",
+      "manufacturer": "Nintendo",
+      "year": 2012,
+      "emulator": "Cemu"
+    }
+  ],
+  "games": [
+    {
+      "title": "Super Mario Sunshine",
+      "year": 2002,
+      "console": "GameCube",
+      "publisher": "Nintendo",
+      "genres": [
+        "Platformer"
+      ]
+    },
+    {
+      "title": "The Legend of Zelda: The Wind Waker",
+      "year": 2002,
+      "console": "GameCube",
+      "publisher": "Nintendo",
+      "genres": [
+        "Adventure"
+      ]
+    },
+    {
+      "title": "Super Smash Bros. Melee",
+      "year": 2001,
+      "console": "GameCube",
+      "publisher": "Nintendo",
+      "genres": [
+        "Fighting",
+        "Party"
+      ]
+    },
+    {
+      "title": "Super Mario Galaxy",
+      "year": 2007,
+      "console": "Wii",
+      "publisher": "Nintendo",
+      "genres": [
+        "Platformer"
+      ]
+    },
+    {
+      "title": "Mario Kart Wii",
+      "year": 2008,
+      "console": "Wii",
+      "publisher": "Nintendo",
+      "genres": [
+        "Racing"
+      ]
+    },
+    {
+      "title": "Mario Kart 8",
+      "year": 2014,
+      "console": "Wii U",
+      "publisher": "Nintendo",
+      "genres": [
+        "Racing"
+      ]
+    },
+    {
+      "title": "Sonic Colors",
+      "year": 2010,
+      "console": "Wii",
+      "publisher": "Sega",
+      "genres": [
+        "Platformer"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "user": "retro_fan",
+      "game": "The Legend of Zelda: The Wind Waker",
+      "rating": 5,
+      "body": "Best Zelda on GameCube."
+    },
+    {
+      "user": "pixelqueen",
+      "game": "Super Mario Galaxy",
+      "rating": 4,
+      "body": "Still holds up."
+    }
+  ],
+  "favorites": {
+    "retro_fan": [
+      "The Legend of Zelda: The Wind Waker"
+    ],
+    "pixelqueen": [
+      "Super Mario Galaxy",
+      "Mario Kart Wii"
+    ]
+  }
+}
